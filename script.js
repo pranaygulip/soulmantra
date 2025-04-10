@@ -1,7 +1,7 @@
 const quotes = [
-  { category: "No wonder infinite secrets shadowed by women's heart clenching towards the desire of a lustful man driving towards eternity" },
-  { category: "Although dusk is gloomy, it's always been the most romantic time reflecting the underrated thoughts & unaccomplished goals" },
-  { category: "It's the desire to cherish someone that makes you feel an infinite butterflies wandering amid all the chaos, which is the magical moment one can experience, don't just lose it, just feel the pleasure which is irresistible" }
+  { category: "Life", text: "No wonder infinite secrets shadowed by women's heart clenching towards the desire of a lustful man driving towards eternity." },
+  { category: "Life", text: "Although dusk is gloomy, it's always been the most romantic time reflecting the underrated thoughts & unaccomplished goals." },
+  { category: "Love", text: "It's the desire to cherish someone that makes you feel an infinite butterflies wandering amid all the chaos, which is the magical moment one can experience, don't just lose it, just feel the pleasure which is irresistible" }
 ];
 
 const searchInput = document.getElementById("search");
