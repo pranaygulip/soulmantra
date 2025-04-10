@@ -1,7 +1,7 @@
 const quotes = [
-  { category: "Life", text: "When everything falls apart... time fills all the betrayed gaps." },
-  { category: "Love", text: "Love is not about how many days... every single day." },
-  { category: "Healing", text: "Life doesn’t require that we be the best, only that we try our best." }
+  { category: "No wonder infinite secrets shadowed by women's heart clenching towards the desire of a lustful man driving towards eternity" },
+  { category: "Although dusk is gloomy, it's always been the most romantic time reflecting the underrated thoughts & unaccomplished goals" },
+  { category: "It's the desire to cherish someone that makes you feel an infinite butterflies wandering amid all the chaos, which is the magical moment one can experience, don't just lose it, just feel the pleasure which is irresistible" }
 ];
 
 const searchInput = document.getElementById("search");
