@@ -1,0 +1,33 @@
+body {
+  font-family: Georgia, serif;
+  background: #fff8f1;
+  color: #333;
+  text-align: center;
+  padding: 2rem;
+}
+header {
+  margin-bottom: 2rem;
+}
+.tagline {
+  font-style: italic;
+  color: #666;
+}
+input[type="text"] {
+  padding: 0.5rem;
+  width: 60%;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+.quote-card {
+  background: #fff;
+  border-left: 4px solid #ffc107;
+  margin: 1rem auto;
+  padding: 1rem;
+  width: 60%;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+footer {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #aaa;
+}
