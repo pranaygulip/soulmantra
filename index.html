@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="SoulMantra - Ink That Heals, Words That Stay" />
+  <title>SoulMantra</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+</head>
+<body class="dark">
+  <header>
+    <h1>SoulMantra</h1>
+    <p class="tagline"><span id="typed"></span></p>
+  </header>
+
+  <main>
+    <div class="controls">
+      <select id="categoryFilter">
+        <option value="all">All</option>
+        <option value="Love">Love</option>
+        <option value="Life">Life</option>
+        <option value="Healing">Healing</option>
+      </select>
+      <input type="text" id="search" placeholder="Search quotes..." />
+    </div>
+    <div id="quotes"></div>
+
+    <div class="newsletter">
+      <h3>Subscribe to Soul Letters 💌</h3>
+      <form action="https://tinyletter.com/soulmantra" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/soulmantra', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+        <input type="email" name="email" id="tlemail" placeholder="Your email..." required />
+        <input type="hidden" value="1" name="embed"/>
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+
+    <div class="adsense-placeholder">[AdSense Banner Placeholder]</div>
+  </main>
+
+  <footer>
+    <p>— Everlasting | SoulMantra.com</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="script.js"></script>
+</body>
+</html>
